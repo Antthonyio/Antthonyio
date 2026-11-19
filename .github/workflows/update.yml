@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
@@ -38,5 +40,6 @@ jobs:
             echo "nada mudou"
           else
             git commit -m "chore: atualizar gráficos do perfil"
-            git push
+            git pull --rebase --autostash origin main
+            git push origin main
           fi
