@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" fill="none" role="img" aria-label="Personagem Antthonyi no AION 2: Cleric nível 45, 194.827 de poder, servidor Israphel">
+  <defs>
+    <linearGradient id="c-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12101a"/>
+      <stop offset="1" stop-color="#0b0910"/>
+    </linearGradient>
+    <linearGradient id="c-acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b14aed"/>
+      <stop offset="1" stop-color="#e83e8c"/>
+    </linearGradient>
+    <radialGradient id="c-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b14aed" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#b14aed" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="290" rx="16" fill="url(#c-bg)" stroke="#241f33" stroke-width="1.5"/>
+
+  <!-- arte do personagem -->
+  <g transform="translate(34,26)">
+    <rect width="238" height="238" rx="14" fill="#0b0910" stroke="#241f33"/>
+    <rect width="238" height="238" rx="14" fill="url(#c-glow)"/>
+    <g transform="translate(59,49) scale(1.0)">
+      <circle cx="60" cy="60" r="56" fill="none" stroke="url(#c-acc)" stroke-width="2" stroke-dasharray="4 6" opacity="0.6"/>
+      <path d="M60 20c-17 0-28 13-28 31 0 6 1 10 3 14l-6 33c14 6 24 8 31 8s17-2 31-8l-6-33c2-4 3-8 3-14 0-18-11-31-28-31z" fill="#161221" stroke="url(#c-acc)" stroke-width="2"/>
+      <path d="M34 47c6-13 15-19 26-19s20 6 26 19c-4-4-10-6-15-6-6 0-9 3-11 7-2-4-5-7-11-7-5 0-11 2-15 6z" fill="#221a30"/>
+      <path d="M47 58c3-3 8-3 11 0M62 58c3-3 8-3 11 0" stroke="#e83e8c" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M52 76c3 2 6 3 8 3s5-1 8-3" stroke="#8b7aa8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M28 98c8-4 18-6 32-6s24 2 32 6" stroke="url(#c-acc)" stroke-width="1.6" opacity="0.7"/>
+    </g>
+    <text x="119" y="222" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" letter-spacing="1.4" fill="#8b82a0">ISRAPHEL</text>
+  </g>
+
+  <!-- nome -->
+  <text x="302" y="66" font-family="'Space Grotesk',Segoe UI,sans-serif" font-size="30" font-weight="700" letter-spacing="-1" fill="#f4f0fa">Antthonyi</text>
+  <text x="302" y="90" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#8b82a0">Cleric · Israphel · ViaOuláctea</text>
+
+  <!-- números -->
+  <g font-family="'Space Grotesk',Segoe UI,sans-serif">
+    <g transform="translate(302,110)">
+      <rect width="122" height="66" rx="11" fill="#08070b" stroke="#241f33"/>
+      <text x="14" y="22" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="9.5" letter-spacing="1.2" fill="#8b82a0">NÍVEL</text>
+      <text x="14" y="52" font-size="26" font-weight="700" fill="#f4f0fa">45</text>
+    </g>
+    <g transform="translate(434,110)">
+      <rect width="176" height="66" rx="11" fill="#08070b" stroke="#241f33"/>
+      <text x="14" y="22" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="9.5" letter-spacing="1.2" fill="#8b82a0">PODER</text>
+      <text x="14" y="52" font-size="26" font-weight="700" fill="#f4f0fa">194.827</text>
+      <text x="122" y="52" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="11" fill="#8b82a0">CP</text>
+    </g>
+    <g transform="translate(620,110)">
+      <rect width="128" height="66" rx="11" fill="#08070b" stroke="#241f33"/>
+      <text x="14" y="22" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="9.5" letter-spacing="1.2" fill="#8b82a0">CLASSE</text>
+      <text x="14" y="52" font-size="20" font-weight="600" fill="#f4f0fa">Cleric</text>
+    </g>
+    <g transform="translate(758,110)">
+      <rect width="150" height="66" rx="11" fill="#08070b" stroke="#241f33"/>
+      <text x="14" y="22" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="9.5" letter-spacing="1.2" fill="#8b82a0">SERVIDOR</text>
+      <text x="14" y="52" font-size="20" font-weight="600" fill="#f4f0fa">Israphel</text>
+    </g>
+  </g>
+
+  <!-- equipamento -->
+  <text x="302" y="212" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" letter-spacing="1.4" fill="#b14aed">EQUIPAMENTO EM DESTAQUE</text>
+  <g font-family="'JetBrains Mono',ui-monospace,monospace" font-size="11" fill="#b6adc8">
+    <g transform="translate(302,224)">
+      <rect width="186" height="26" rx="7" fill="#08070b" stroke="#241f33"/>
+      <text x="10" y="17.5">Mace +15</text>
+      <circle cx="168" cy="13" r="3.5" fill="#b14aed"/>
+    </g>
+    <g transform="translate(496,224)">
+      <rect width="186" height="26" rx="7" fill="#08070b" stroke="#241f33"/>
+      <text x="10" y="17.5">Guard +15</text>
+      <circle cx="168" cy="13" r="3.5" fill="#b14aed"/>
+    </g>
+    <g transform="translate(690,224)">
+      <rect width="218" height="26" rx="7" fill="#08070b" stroke="#241f33"/>
+      <text x="10" y="17.5">Breastplate +15</text>
+      <circle cx="200" cy="13" r="3.5" fill="#b14aed"/>
+    </g>
+  </g>
+
+  <!-- selo -->
+  <g transform="translate(1000,30)">
+    <rect width="164" height="230" rx="14" fill="#0b0910" stroke="#241f33"/>
+    <text x="82" y="34" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="9.5" letter-spacing="1.2" fill="#8b82a0">TÍTULOS</text>
+    <text x="82" y="76" text-anchor="middle" font-family="'Space Grotesk',Segoe UI,sans-serif" font-size="34" font-weight="700" fill="#f4f0fa">262</text>
+    <text x="82" y="94" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" fill="#8b82a0">de 307</text>
+
+    <line x1="20" y1="112" x2="144" y2="112" stroke="#241f33"/>
+
+    <text x="82" y="136" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="9.5" letter-spacing="1.2" fill="#8b82a0">DAEVANION</text>
+    <g transform="translate(26,150)">
+      <rect width="112" height="6" rx="3" fill="#241f33"/>
+      <rect width="82" height="6" rx="3" fill="url(#c-acc)"/>
+    </g>
+    <text x="82" y="178" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" fill="#b6adc8">73% aberto</text>
+
+    <line x1="20" y1="196" x2="144" y2="196" stroke="#241f33"/>
+    <text x="82" y="218" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="9" fill="#8b82a0">Needs Intensive Care</text>
+  </g>
+</svg>
