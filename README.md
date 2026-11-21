@@ -1,8 +1,4 @@
-<!-- ============================================================
-     Antthonyi · perfil do GitHub
-     Paleta: #08070b fundo · #b14aed roxo · #e83e8c rosa
-     Os gráficos são gerados pelo workflow em .github/workflows/
-     ============================================================ -->
+
 
 <div align="center">
 
