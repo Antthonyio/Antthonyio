@@ -61,7 +61,6 @@
 
 </div>
 
-
 <img src="./assets/divisor.svg" width="100%" alt="">
 
 ## <img src="https://img.shields.io/badge/03-ATIVIDADE-b14aed?style=flat-square&labelColor=12101a" alt="atividade"> &nbsp; Gráficos
@@ -69,11 +68,6 @@
 <div align="center">
 
 <img src="./assets/heatmap.svg" alt="Contribuições no último ano" width="100%">
-
-<br>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Antthonyio&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=12101a&title_color=b14aed&icon_color=e83e8c&text_color=b6adc8&ring_color=e83e8c" alt="Estatísticas do GitHub">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Antthonyio&layout=compact&hide_border=true&langs_count=8&bg_color=12101a&title_color=b14aed&text_color=b6adc8" alt="Linguagens principais">
 
 <br>
 
