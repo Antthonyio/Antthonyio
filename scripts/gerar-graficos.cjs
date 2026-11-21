@@ -181,7 +181,7 @@ function svgHeatmap(cal) {
   <rect width="${W}" height="${H}" rx="16" fill="url(#h-bg)" stroke="${CORES.line}" stroke-width="1.5"/>
   <text x="20" y="26" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" letter-spacing="1.4" fill="${CORES.accent}">CONTRIBUIÇÕES NO ÚLTIMO ANO</text>
   <text x="${W - 20}" y="26" text-anchor="end" font-family="'Space Grotesk',Segoe UI,sans-serif" font-size="16" font-weight="700" fill="${CORES.ink}">${total}</text>
-  <text x="${W - 20}" y="26" text-anchor="end" dx="-46" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" fill="${CORES.mute}">total</text>
+  <text x="${W - 20}" y="26" text-anchor="end" dx="-${(String(total).length * 10 + 6)}" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" fill="${CORES.mute}">total</text>
   ${labels}
   ${rotulosDias}
   ${cells}
@@ -202,8 +202,9 @@ function svgHeatmap(cal) {
     console.log("repos:", lista.length);
     const langs = await linguagens(lista);
     console.log("linguagens:", langs.map((l) => `${l.nome} ${l.pct.toFixed(1)}%`).join(", ") || "nenhuma");
-    fs.writeFileSync(path.join(OUT, "langs.svg"), svgLangs(langs.length ? langs : [{ nome: "TypeScript", bytes: 1, pct: 100, cor: LANG_CORES.TypeScript }]));
-    console.log("assets/langs.svg gravado");
+    // NÃO sobrescreve langs.svg aqui: quem gera esse gráfico (com os repositórios
+    // privados incluídos) é scripts/linguagens-manual.cjs, chamado logo depois no workflow.
+    console.log("linguagens (só públicas):", langs.map((l) => `${l.nome} ${l.pct.toFixed(1)}%`).join(", ") || "nenhuma");
   } catch (e) {
     console.error("falha nas linguagens:", e.message);
   }
