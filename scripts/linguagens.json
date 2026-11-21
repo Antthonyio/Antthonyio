@@ -1,0 +1,14 @@
+{
+  "_comentario": "Pesos em bytes usados para contar os repositórios PRIVADOS no gráfico de linguagens. Ajuste os números conforme o tamanho real de cada projeto.",
+  "pesos": {
+    "JavaScript": 320000,
+    "HTML": 95000,
+    "CSS": 78000,
+    "Python": 42000,
+    "Shell": 26000,
+    "SQL": 18000,
+    "Go": 22000,
+    "Rust": 20000,
+    "C": 16000
+  }
+}

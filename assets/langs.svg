@@ -1,16 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="128" viewBox="0 0 1200 128" fill="none" role="img" aria-label="Distribuição de linguagens">
-  <defs>
-    <linearGradient id="l-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#12101a"/><stop offset="1" stop-color="#0b0910"/>
-    </linearGradient>
-    <clipPath id="l-clip"><rect x="40" y="34" width="1120" height="14" rx="7"/></clipPath>
-  </defs>
+  <defs><linearGradient id="l-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12101a"/><stop offset="1" stop-color="#0b0910"/></linearGradient>
+  <clipPath id="l-clip"><rect x="40" y="34" width="1120" height="14" rx="7"/></clipPath></defs>
   <rect width="1200" height="128" rx="16" fill="url(#l-bg)" stroke="#241f33" stroke-width="1.5"/>
-  <text x="40" y="24" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" letter-spacing="1.4" fill="#b14aed">DISTRIBUIÇÃO POR BYTES DE CÓDIGO</text>
-  <g clip-path="url(#l-clip)"><rect x="40" y="34" width="1120" height="14" fill="#241f33"/><rect x="40.0" y="34" width="1120.0" height="14" fill="#f1e05a"/></g>
-  <g transform="translate(40,84)">
-      <circle cx="5" cy="-4" r="5" fill="#f1e05a"/>
-      <text x="18" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#b6adc8">JavaScript</text>
-      <text x="150" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#8b82a0">100.0%</text>
-    </g>
+  <text x="40" y="24" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="10" letter-spacing="1.4" fill="#b14aed">DISTRIBUIÇÃO POR BYTES DE CÓDIGO · PÚBLICOS + PRIVADOS</text>
+  <g clip-path="url(#l-clip)"><rect x="40" y="34" width="1120" height="14" fill="#241f33"/><rect x="40.0" y="34" width="570.6" height="14" fill="#f1e05a"/><rect x="610.6" y="34" width="164.6" height="14" fill="#e34c26"/><rect x="775.3" y="34" width="135.2" height="14" fill="#563d7c"/><rect x="910.4" y="34" width="72.8" height="14" fill="#3572A5"/><rect x="983.2" y="34" width="45.1" height="14" fill="#89e051"/><rect x="1028.3" y="34" width="38.1" height="14" fill="#00ADD8"/><rect x="1066.4" y="34" width="34.7" height="14" fill="#dea584"/><rect x="1101.1" y="34" width="31.2" height="14" fill="#e38c00"/></g>
+  <g transform="translate(40,84)"><circle cx="5" cy="-4" r="5" fill="#f1e05a"/><text x="18" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#b6adc8">JavaScript</text><text x="150" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#8b82a0">51.0%</text></g><g transform="translate(425,84)"><circle cx="5" cy="-4" r="5" fill="#e34c26"/><text x="18" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#b6adc8">HTML</text><text x="150" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#8b82a0">14.7%</text></g><g transform="translate(810,84)"><circle cx="5" cy="-4" r="5" fill="#563d7c"/><text x="18" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#b6adc8">CSS</text><text x="150" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#8b82a0">12.1%</text></g><g transform="translate(40,110)"><circle cx="5" cy="-4" r="5" fill="#3572A5"/><text x="18" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#b6adc8">Python</text><text x="150" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#8b82a0">6.5%</text></g><g transform="translate(425,110)"><circle cx="5" cy="-4" r="5" fill="#89e051"/><text x="18" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#b6adc8">Shell</text><text x="150" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#8b82a0">4.0%</text></g><g transform="translate(810,110)"><circle cx="5" cy="-4" r="5" fill="#00ADD8"/><text x="18" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#b6adc8">Go</text><text x="150" y="0" font-family="'JetBrains Mono',ui-monospace,monospace" font-size="12" fill="#8b82a0">3.4%</text></g>
 </svg>

@@ -61,28 +61,6 @@
 
 </div>
 
-<br>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Repositórios públicos**
-
-`Node.js` `JavaScript` `HTML/CSS` `Shell`
-`Python` `SQL` `Go` `Rust` `C`
-
-</td><td width="50%" valign="top">
-
-**Estudos e exercícios**
-
-`Fibonacci` `FizzBuzz` `palíndromo`
-`contador de texto` `soma em Go`
-`top clientes em SQL` `relógio web`
-
-</td>
-</tr>
-</table>
 
 <img src="./assets/divisor.svg" width="100%" alt="">
 
